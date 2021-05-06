@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  font-family: monospace, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+.landing-page {
+  background-color: #dbf2fa;
+}
+
+.donation-page {
+  background-image: linear-gradient(to right, #edfbfe , #c0e1f7);
+  padding-bottom: 300px;
+}
+
+.App-header {
+  background-size: cover;
+}
+
+.App-header .logo {
+  width: 250px;
+  position: absolute;
+  left: 35px;
+  top: 25px;
+}
+.logo{
+  width: 250px;
+  position: absolute;
+  left: 35px;
+  top: 25px;
+}
+
+.App-header .protest-img {
+  width: 37vw;
+  position: absolute;
+  right: 10%;
+  top: 15%;
+}
+
+.App-header .message, .donate-page-header .message {
+  position: absolute;
+  top: 240px;
+  max-width: 43vw;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  left: 5%;
+}
+
+.donate-page-header .message {
+  max-width: 50vw;
+}
+
+.App-header .message .title, .donate-page-header .title {
+  font-size: 44px;
+  margin-bottom: 20px;
+  color: #c24d52;
+  font-weight: 600;
+  font-family: monospace;
+}
+
+.App-header .message .content, .donate-page-header .content {
+  font-size: 20px;
+  font-family: monospace;
+  margin-bottom: 40px;
+}
+.content{
+    margin-bottom: 20px;
+}
+
+.heroes, .mission {
+  text-align: center;
+}
+
+.heroes {
+  margin-top: 50px;
+}
+
+.heroes .hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.heroes .hero .hero-img {
+  width: 25vw;
+}
+
+.heroes .hero .hero-img.large {
+  width: 40vw;
+}
+
+.heroes .hero .hero-text {
+  max-width: 45vw;
+  font-size: 20px;
+}
+
+.hero.upper-margin {
+  margin-top: 75px;
+  margin-bottom: 10px;;
+}
+
+.mission {
+  margin-top: 80px;
+}
+
+.heroes .title, .mission .title {
+  text-decoration: underline;
+  color: #c24d52;
+  font-size: 44px;
+  font-weight: 600;
+}
+
+.mission .text {
+  max-width: 60vw;
+  margin: 30px auto;
+  font-size: 20px;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.donation-title{
+  width: 100%;
+  text-align: center;
+  margin-top: 56px;
+  font-size: 60px;
+  font-weight: 800
+}
+.donate-button{
+  width: 200px;
+  text-align: center;
+  background-color: aliceblue;
+  height: 57px;
+  color: #c24c51;
+  font-size: 25px;
+}
+.donate-button:hover {
+  color: #c24c51;
+  background: #fff;
+  border-color: #c24c51;
+}
+.donation-card{
+  margin: -150px auto;
+  width: 60%;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.donate-page-header {
+  background-size: cover;
+  min-height: 700px;
+  background-position: center;
+}
+
+.know-more-modal .know-more-image {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.donate-cta {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 200px;
+}
